@@ -1,0 +1,14 @@
+[tool.qpro]
+[[tool.qpro.server_targets]]
+user = ""
+host = ""
+port = 22
+path = ""
+
+[tool.qpro.config]
+build = ""
+entry_point = "orders/main.py"
+executable = "python3 -m orders.main"
+input_file = ""
+template_root = ""
+enable_complete = true
